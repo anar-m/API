@@ -22,7 +22,7 @@ public class C1_Get_ApiSorgulama {
     // 4- assertion işlemi
     @Test
     public void get01(){
-        // 1- url belirleyip url adresine gideceğiz
+        // 1- url belirleyip url adresine gideceğiz (Endpoint Hazırlama)
         String url = "https://restful-booker.herokuapp.com/booking/46";
 
         // 2- ecpected data açıkça verilirse belirlenecek
