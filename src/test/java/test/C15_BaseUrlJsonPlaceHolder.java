@@ -1,13 +1,12 @@
 package test;
 
 
-import baseUrl.jsonPlaceBaseUrl;
+import baseUrl.JsonPlaceBaseUrl;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
-public class C15_BaseUrlJsonPlaceHolder extends jsonPlaceBaseUrl {
+public class C15_BaseUrlJsonPlaceHolder extends JsonPlaceBaseUrl {
     //C15_BaseUrlJsonPlaceHolder
     //Class icinde 3 Test metodu olusturun ve asagidaki testleri yapin
     //1- https://jsonplaceholder.typicode.com/posts endpointine bir GET request
