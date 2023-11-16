@@ -65,6 +65,7 @@ public class C20_Post_DataKullanimi extends herOkuAppBaseURL {
 
 
 
+
     }
 
 }
